@@ -2,8 +2,23 @@ p{
     font-family:n ;
     text-align: center;
     color: black;
-    font-size: large;
+    font-size: 25px;
     /* margin-left: 20px; */
+}
+@media (max-width: 736px){
+    .para u{
+        margin-top: 1%;
+    }
+    #main{
+        height: 450px;
+    }
+    p{
+        width: 250px;
+        padding-left: 30px;
+   ;
+
+        
+    }
 }
 
 

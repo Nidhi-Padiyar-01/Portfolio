@@ -53,7 +53,7 @@ function Home() {
         </div>
 
         <h1>Projects</h1>
-        <div id="container">
+        {/* <div id="container">
           <div className="box">
             <img className="b1" src="b1.jpg" />
             <p>Hotstar Clone</p>
@@ -66,9 +66,9 @@ function Home() {
             <img className="b1" src="b3.jpg" />
             <p>College Website</p>
           </div>
-        </div>
+        </div> */}
 
-        <div className="footer">&#169P Nidhi Padiyar</div>
+        
 
         {/* <div className="Contact">
           <form ref={form} onSubmit={sendEmail}>
