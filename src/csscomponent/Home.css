@@ -70,6 +70,8 @@ blockquote{
   .div2 h1{
     margin-top: 150px;
     margin-right: 60px;
+    width: 150px;
+
   }
   .div2 p{
     width: 200px;
@@ -95,8 +97,9 @@ blockquote{
     max-width: 600px;
     padding-top: 20px;
 }
-.button{
-  
+.div2 button{
+  margin-right: 80px;
+
 }
 .footer{
   background: #000;
