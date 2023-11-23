@@ -2,7 +2,7 @@ import "../csscomponent/Aboutme.css";
 export default function Aboutme() {
   return (
     <>
-      <div>
+      <div className="para">
         <h1>
           <u>About Me</u>
         </h1>

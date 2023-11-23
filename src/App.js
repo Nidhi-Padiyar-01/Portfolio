@@ -2,9 +2,11 @@ import "./App.css";
 import Navbar from "./component/Navbar";
 import Home from "./component/Home";
 import Aboutme from "./component/Aboutme";
-import Skills from "./component/Skills";
+import Skill from "./component/Skill";
 import Contact from "./component/Contact";
 import Project from "./component/Project";
+import Loader from "./component/Loader";
+// import card from "./component/card";
 
 import { Routes,Route,BrowserRouter } from "react-router-dom";
 
@@ -19,7 +21,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/Aboutme" element={<Aboutme />} />
-            <Route path="/Skills" element={<Skills />} />
+            <Route path="/Skill" element={<Skill />} />
              {/* <Route path="/Qualifications" element={<Qualifications />} /> */}
             <Route path="/Project" element={<Project />} />
            <Route path="/Contact" element={<Contact />} />
@@ -28,6 +30,7 @@ function App() {
       </div>
       <div className="Navbar">
       </div>
+   
       </div>
     </>
   );

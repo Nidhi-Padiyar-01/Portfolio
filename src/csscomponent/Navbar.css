@@ -134,7 +134,6 @@ a.active,a:hover{
         }
         
         .sidebar {
-            /* display: none; */
             display: block;
             position: fixed;
             top: 0;
@@ -142,8 +141,9 @@ a.active,a:hover{
             height: 100vh;
             width: 250px;
             z-index: 999;
-            backdrop-filter: blur(2px);
-            background-color: black;
+            /* backdrop-filter: blur(10px); */
+            background-color: rgb(7, 6, 6);
+            opacity: 0.75;
             flex-direction: column;
             align-items: flex-start;
             justify-content: flex-start;
@@ -165,15 +165,26 @@ a.active,a:hover{
         
         
         @media (max-width:835px) {
-            .navbar ul li{
-                display:none;
-            }
+           nav ul li a{
+            display: none;
+           }
         
             #hamburger {
                 display: block;
+                /* width: 100%;
+                color: aliceblue; */
             }
         
-            /* .media {
+            .media {
                 display: none;
-            } */
+            }
+            .sidebar li a{
+                display: block;
+                color: aliceblue;
+                width: 100%;
+            }
+            .navbar h2{
+                width: 40px;
+                height: 32px;
+            }
         } 

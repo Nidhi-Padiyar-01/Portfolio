@@ -1,4 +1,7 @@
 import "../csscomponent/Home.css";
+import React, { useRef } from 'react';
+
+
 function Home() {
   return (
     <>
@@ -64,6 +67,28 @@ function Home() {
             <p>College Website</p>
           </div>
         </div>
+
+        <div className="footer">&#169P Nidhi Padiyar</div>
+
+        {/* <div className="Contact">
+          <form ref={form} onSubmit={sendEmail}>
+            <div className="lab">
+              <label>Name:</label>
+              <input type="text" name="user_name" />
+            </div>
+            <div className="lab">
+              <label>Email:</label>
+              <input type="email" name="user_email" />
+            </div>
+            <div className="lab">
+              <label>Message:</label>
+              <textarea name="message" />
+              <div className="lab">
+                <input type="submit" className="btn" value="Send" />
+              </div>
+            </div>
+          </form>
+        </div> */}
       </body>
     </>
   );

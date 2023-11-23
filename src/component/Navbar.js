@@ -38,7 +38,7 @@
 import "../csscomponent/Navbar.css";
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import { useLocation } from "react-router-dom";
+// import { useLocation } from "react-router-dom";
 function Navbar() {
   const [navbar, setNavbar] = useState(false);
   const hamburger = (value) => {
@@ -51,6 +51,10 @@ function Navbar() {
   },[location]);*/
   const hamburger=()=>{
     setNavbar(!setNavbar);
+  }
+
+    const closesidebar=()=>{
+      setNavbar(false);
   }
 }
   return (
@@ -65,12 +69,12 @@ function Navbar() {
           </li>
 
           <li>
-            <Link className="about" to="/Aboutme">
+            <Link className="about" to="/Aboutme" >
               About me
             </Link>
           </li>
           <li>
-            <Link className="skills" to="/Skills">
+            <Link className="skills" to="/Skill">
               Skills
             </Link>
           </li>
@@ -85,7 +89,7 @@ function Navbar() {
             </Link>
           </li>
           <li>
-            <Link className="connect" to="/Connect">
+            <Link className="connect" to="/Contact">
               Connect
             </Link>
           </li>
@@ -105,22 +109,34 @@ function Navbar() {
                 </a>
               </li>
               <li>
-                <a href="#">Home</a>
+                <Link className="home" to="/" >
+              Home
+            </Link>
               </li>
               <li>
-                <a href="#about">About</a>
+              <Link className="about" to="/Aboutme">
+              About me
+            </Link>
               </li>
               <li>
-                <a href="#">Skills</a>
+              <Link className="skills" to="/Skill">
+              Skills
+            </Link>
               </li>
               <li>
-                <a href="#">Qualifications</a>
+              <Link className="qual" to="/Qualifications">
+              Qualifications
+            </Link>
               </li>
               <li>
-                <a href="#">Projects</a>
+              <Link className="Project" to="/Project">
+              Projects
+            </Link>
               </li>
               <li>
-                <a href="#">Contact</a>
+              <Link className="connect" to="/Contact">
+              Connect
+            </Link>
               </li>
             </ul>
           </>
