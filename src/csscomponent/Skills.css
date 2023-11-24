@@ -13,10 +13,13 @@
     animation-name:box1 ; */
 }
 #box1:hover{
-    background-color: azure;
+    background-color: rgb(0, 0, 0);
 }
 h1{
-    color: rgb(106, 10, 113);
+    color: orangered;
+}
+p{
+    color: rgb(236, 235, 235);
 }
 /* #box1{
         animation-name: example;

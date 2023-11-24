@@ -24,18 +24,17 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/Aboutme" element={<Aboutme />} />
             <Route path="/Skill" element={<Skill />} />
-             {/* <Route path="/Qualifications" element={<Qualifications />} /> */}
             <Route path="/Project" element={<Project />} />
            <Route path="/Contact" element={<Contact />} />
           </Routes>
-          <Footer />
+         
         </BrowserRouter>
         
       </div>
      
       <div className="Navbar">
       </div>
-      <Project />
+      
       
       </div>
       

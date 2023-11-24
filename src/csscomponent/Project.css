@@ -2,6 +2,10 @@
     display: grid;
     margin: auto;
     grid-template-columns: auto auto auto;
+    padding-bottom: 150px;
+    
+    width: 300px;
+
 }
 
 .b1{
@@ -26,10 +30,27 @@
 }
 @media(max-width: 768px){
     #container{
+        display: flex;
         width: 100%;
         display:block;
-        margin-bottom:40px;
-        margin-left: 20px;
+        /* padding: 20px; */
+       margin: 0;
+       
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 0;
+    }
+    .box{
+        margin-left: 0;
+        margin-right: 0;
+       margin: 20px;
+    }
+    p{
+        padding: 0;
+        margin: 0;
+    }
+    h1{
+        margin: 0;
     }
 }
     

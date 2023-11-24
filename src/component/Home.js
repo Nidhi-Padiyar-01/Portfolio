@@ -1,6 +1,11 @@
+
 import "../csscomponent/Home.css";
 import React, { useRef } from 'react';
-
+import Aboutme from "../component/Aboutme.js";
+import Skill from "../component/Skill.js";
+import Loader from "./Loader";
+import Footer from "./Footer";
+import Project from "../component/Project.js";
 
 function Home() {
   return (
@@ -11,8 +16,8 @@ function Home() {
             <img className="profile" src="Img.jpg" />
           </div>
           <div className="div2">
-            <h1>HELLO</h1>
-            <p>I'm P Nidhi Padiyar</p>
+            <h1>HELLO,</h1>
+            <p className="p1">I'm P Nidhi Padiyar</p>
             <blockquote>
               As a web developer. I'm passionate about creating interfaces that
               are fun,useful and user-centric.
@@ -38,7 +43,7 @@ function Home() {
           </p>
         </div>
 
-        <h1>Skills</h1>
+        {/* <h1>Skills</h1>
         <div id="box1">
           <h2>UI/UX Design</h2>
           <p>I have done many projects on ui and ux designs</p>
@@ -50,9 +55,8 @@ function Home() {
         <div id="box1">
           <h2>UI/UX Design</h2>
           <p>I have done many projects on ui and ux designs</p>
-        </div>
+        </div> */}
 
-        <h1>Projects</h1>
         {/* <div id="container">
           <div className="box">
             <img className="b1" src="b1.jpg" />
@@ -89,6 +93,9 @@ function Home() {
             </div>
           </form>
         </div> */}
+        <div> <Skill />
+          <Project />
+          <Footer /></div>
       </body>
     </>
   );

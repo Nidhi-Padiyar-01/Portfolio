@@ -1,9 +1,14 @@
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: black;
-    color: white;
-    text-align: center;
-  }
+.footer{
+  width:100vw;
+  height:5rem;
+  background: rgb(0, 0, 0);
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 300;
+  font-size: small;
+
+}
+.footer p{
+  color: aliceblue;
+}

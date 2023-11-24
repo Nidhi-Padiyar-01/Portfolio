@@ -2,10 +2,11 @@ import "../csscomponent/Aboutme.css";
 export default function Aboutme() {
   return (
     <>
-      <div className="para">
+      <div className="par">
         <h1>
           <u>About Me</u>
         </h1>
+        <div className="p3">
         <p>
           My name is Nidhi Padiyar. I'm currently pursuing my third year of B.E
           in Canara Engineering College. I live in Panemangalore with my family.
@@ -15,6 +16,7 @@ export default function Aboutme() {
           history,the language and all the small unique things every place has
           to offer.
         </p>
+        </div>
       </div>
     </>
   );

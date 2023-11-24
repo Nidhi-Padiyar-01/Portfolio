@@ -26,21 +26,22 @@ export default function Skill(){//creating an array
     const skills=[{
         id:1,
         head:'C++',
-        para:'iqhwdi jwbdjwdu dhd',
+        para:'For high-performance applications',
     },
     {
         id:2,
         head:'java',
-        para:'iqhwdi jwbdjwdu dhd',
+        para:'Network-centric language',
     },
     {
         id:3,
         head:"python",
-        para:"iqhwdi jwbdjwdu dhd",
+        para:"To develop websites and software",
     }
     ];
     return(
-        <div>
+        <div classname="skill">
+            <h1><u>Skills</u></h1>
         {
             
             skills.map((item)=>(
