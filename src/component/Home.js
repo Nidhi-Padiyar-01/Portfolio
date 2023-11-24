@@ -6,6 +6,7 @@ import Skill from "../component/Skill.js";
 import Loader from "./Loader";
 import Footer from "./Footer";
 import Project from "../component/Project.js";
+import Contact from "../component/Contact.js";
 
 function Home() {
   return (
@@ -17,7 +18,7 @@ function Home() {
           </div>
           <div className="div2">
             <h1>HELLO,</h1>
-            <p className="p1">I'm P Nidhi Padiyar</p>
+            <p className="p1">I'm Nidhi P</p>
             <blockquote>
               As a web developer. I'm passionate about creating interfaces that
               are fun,useful and user-centric.
@@ -95,6 +96,8 @@ function Home() {
         </div> */}
         <div> <Skill />
           <Project />
+          
+          <Contact />
           <Footer /></div>
       </body>
     </>
