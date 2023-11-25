@@ -1,4 +1,5 @@
 import "../csscomponent/Aboutme.css";
+import Footer from "./Footer";
 export default function Aboutme() {
   return (
     <>
@@ -6,7 +7,6 @@ export default function Aboutme() {
         <h1>
           <u>About Me</u>
         </h1>
-    
         <p>
           My name is Nidhi Padiyar. I'm currently pursuing my third year of B.E
           in Canara Engineering College. I live in Panemangalore with my family.
@@ -16,7 +16,7 @@ export default function Aboutme() {
           history,the language and all the small unique things every place has
           to offer.
         </p>
-        
+       
       </div>
       
     </>

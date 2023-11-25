@@ -97,15 +97,7 @@ blockquote {
     height: 50px;
   }
   .div2 blockquote {
-    /* width: 300px;
-    height: 200px;
-    padding-left: 0px;
-    margin-right: 0px;
-    margin-left: 0px;
-    padding-right: 0px;
-    margin: auto;
-    justify-content: center;
-    text-align: center; */
+   
     transform: translate(-20%, -25%);
     color: rgb(242, 230, 230);
     left: 0;

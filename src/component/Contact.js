@@ -5,14 +5,14 @@ import Loader from "./Loader.js";
 
 function Contact() {
   const form = useRef();
-  const [isloading, setIsLoading] = useState(false);//to hide the loading spinner
+  const [isloading, setIsLoading] = useState(false); //to hide the loading spinner
   //to access and update the state value
   const loader = (value) => {
     setIsLoading(value);
   };
   const sendEmail = (e) => {
     e.preventDefault();
-    setIsLoading(true);//to display a loading spinner as soon as the user call is triggered
+    setIsLoading(true); //to display a loading spinner as soon as the user call is triggered
 
     emailjs
       .sendForm(
@@ -25,7 +25,7 @@ function Contact() {
         (result) => {
           console.log(result.text);
           alert("Message sent successfully");
-          setIsLoading(false);//to hide loading screen
+          setIsLoading(false); //to hide loading screen
           form.current.reset();
         },
         (error) => {
@@ -38,7 +38,7 @@ function Contact() {
     <div className="Contact">
       <form ref={form} onSubmit={sendEmail}>
         <div className="lab">
-          <label>Name:  </label>
+          <label>Name: </label>
           <input type="text" name="user_name" />
         </div>
         <div className="lab">
@@ -49,7 +49,7 @@ function Contact() {
           <label>Message:</label>
           <textarea name="message" />
           <div className="lab">
-            {isloading ? (//ternary operator,adding conditional rendering
+            {isloading ? ( //ternary operator,adding conditional rendering
               <Loader />
             ) : (
               <button
@@ -65,6 +65,7 @@ function Contact() {
         </div>
       </form>
     </div>
+    
   );
 }
 export default Contact;

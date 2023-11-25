@@ -7,6 +7,7 @@ import Loader from "./Loader";
 import Footer from "./Footer";
 import Project from "../component/Project.js";
 import Contact from "../component/Contact.js";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -24,7 +25,7 @@ function Home() {
               are fun,useful and user-centric.
             </blockquote>
             <div>
-              <button className="button">My Projects</button>
+              <Link to="/Project"> <button className="button" href="">My Projects</button></Link>
             </div>
           </div>
         </div>
@@ -96,10 +97,11 @@ function Home() {
         </div> */}
         <div> <Skill />
           <Project />
-          
           <Contact />
-          <Footer /></div>
+          <Footer />
+          </div>
       </body>
+      
     </>
   );
 }
