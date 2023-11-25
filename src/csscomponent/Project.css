@@ -10,7 +10,7 @@
 
 .b1{
    width: 100%;
-   height: 90%;
+   height: 100%;
    
 }
 .box{
@@ -43,7 +43,7 @@
     .box{
         margin-left: 0;
         margin-right: 0;
-       margin: 20px;
+        margin: 20px;
     }
     p{
         padding: 0;
