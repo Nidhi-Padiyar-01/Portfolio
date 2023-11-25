@@ -7,6 +7,7 @@ import Contact from "./component/Contact";
 import Project from "./component/Project";
 import Loader from "./component/Loader";
 import Footer from "./component/Footer";
+
 // import card from "./component/card";
 
 import { Routes,Route,BrowserRouter } from "react-router-dom";
@@ -27,7 +28,7 @@ function App() {
             <Route path="/Project" element={<Project />} />
            <Route path="/Contact" element={<Contact />} />
           </Routes>
-          
+  
         </BrowserRouter>
         
       </div>
