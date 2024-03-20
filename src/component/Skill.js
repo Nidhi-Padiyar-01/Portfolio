@@ -25,18 +25,18 @@ import Cards from "./Cards";
 export default function Skill(){//creating an array
     const skills=[{
         id:1,
-        head:'C++',
+        head:'C++,Java,Python',
         para:'For high-performance applications',
     },
     {
         id:2,
-        head:'java',
-        para:'Network-centric language',
+        head:'HTML,CSS,Javascript,ReactJS',
+        para:'To develop user-friendly websites',
     },
     {
         id:3,
-        head:"python",
-        para:"To develop websites and software",
+        head:"SQL",
+        para:"For manipulating data",
     }
     ];
     return(

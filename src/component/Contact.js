@@ -37,17 +37,15 @@ function Contact() {
   return (
     <div className="Contact">
       <form ref={form} onSubmit={sendEmail}>
+        <h1>Contact Me</h1>
         <div className="lab">
-          <label>Name: </label>
-          <input type="text" name="user_name" />
+          <input type="text" placeholder="Your Name" name="user_name" />
         </div>
         <div className="lab">
-          <label>Email:</label>
-          <input type="email" name="user_email" />
+          <input type="email" placeholder="Your Email" name="user_email" />
         </div>
         <div className="lab">
-          <label>Message:</label>
-          <textarea name="message" />
+          <textarea name="message" placeholder="Address"/>
           <div className="lab">
             {isloading ? ( //ternary operator,adding conditional rendering
               <Loader />

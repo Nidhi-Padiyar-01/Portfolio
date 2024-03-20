@@ -1,26 +1,37 @@
 .Contact{
-    width: 80%;
+    width: 100%;
     margin: auto;
-    height: 250px;
+    height: 60vh;
     border-radius: .5rem;
     background-color: rgb(0, 0, 0);
-    /* transform: translate(50%,50%); */
-    /* text-align: center; */
-    /* justify-content: center; */
     margin-top: 100px;
-    opacity: 0.5;
     margin-bottom: 20px;
 }
-.lab{
-    width: 100%;
-    margin-bottom: 20px;
+.Contact h1{
     color: aliceblue;
+}
+.lab input{
+    margin: 20px;
+    width: 20%;
+    color: aliceblue;
+    padding: 10px;
+    height: 10px;
+}
+.lab textarea{
+    margin: 20px;
+    width: 20%;
+    padding: 10px;
+    height: 40px;
 }
 .btn{
     border-radius: .5rem;
-    background-color: aquamarine;
+    background-color: rgb(255, 255, 255);
+    width: 10%;
+    height: 5vh;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .btn:hover{
-    background-color:rgb(197, 48, 48);
+    background-color:rgb(215, 74, 27);
 }
 

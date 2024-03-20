@@ -9,7 +9,7 @@
     font-size: 30px;
     font-family: n;
     /*text-align: center;*/
-    color: rgb(246, 237, 237);
+    color: #4a1a72;
     font-size: 30px;
     margin-left: 20px;
     margin-right: 20px;
@@ -29,9 +29,9 @@
     padding-top: 50px;
   }
 
-  p {
+  par p{
     font-size: 30px;
-    font-family: n;
+    font-family:Georgia, 'Times New Roman', Times, serif;
     color: rgb(246, 237, 237);
     padding: 200px;
   }
