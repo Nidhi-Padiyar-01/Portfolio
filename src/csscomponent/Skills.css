@@ -1,32 +1,69 @@
-#box1{
-    width: 80%;
-    border: 0.5px solid black;
-    margin: auto;
-    border-radius: .5rem;
-    box-shadow: 10px 10px;
-    background-color: grey;
-    opacity: 0.75;
-    margin-bottom: 20px;
-    cursor: pointer;
-    /* animation-duration: alternate;
-    animation-duration: 5s;
-    animation-name:box1 ; */
+#box1 {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background-color: #473a4aca;
+  padding: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  color: white;
 }
-#box1:hover{
-    background-color: rgb(0, 0, 0);
-}
-h1{
-    color: orangered;
-}
-p{
-    color: rgb(236, 235, 235);
-}
-/* #box1{
-        animation-name: example;
-        animation-duration: 5s;
-        animation-timing-function: linear;
-        animation-delay: 2s;
-        animation-iteration-count: infinite;
-        animation-direction: alternate;
-      } */
 
+#box1::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  left: -5px;
+  margin: auto;
+  width: 230px;
+  height: 230px;
+  border-radius: 10px;
+  background: linear-gradient(-45deg, #e82ef9 0%, #40c9ff 100%);
+  z-index: -10;
+  pointer-events: none;
+  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+#box1::after {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(-45deg, #fc00ff 0%, #00dbde 100%);
+  transform: translate3d(0, 0, 0) scale(0.95);
+  filter: blur(20px);
+}
+
+#box1 h1 {
+  color: rgb(0, 0, 0);
+  font-size: 28px;
+  text-transform: capitalize;
+  font-weight: 700;
+  height: 40%;
+}
+
+#box1 p:not(.box1 h1) {
+  font-size: 14px;
+}
+
+#box1 p:last-child {
+  color: #e81cff;
+  font-weight: 600;
+}
+
+#box1:hover::after {
+  filter: blur(30px);
+}
+
+#box1:hover::before {
+  transform: rotate(-90deg) scaleX(1.1) scaleY(1.2);
+}
+
+.grid-container {
+  height: 600px;
+  width: 800px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-row-gap: 50px;
+}

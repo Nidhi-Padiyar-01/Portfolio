@@ -35,35 +35,35 @@ function Contact() {
   };
 
   return (
-    <div className="Contact">
-      <form ref={form} onSubmit={sendEmail}>
-        <h1>Contact Me</h1>
-        <div className="lab">
-          <input type="text" placeholder="Your Name" name="user_name" />
-        </div>
-        <div className="lab">
-          <input type="email" placeholder="Your Email" name="user_email" />
-        </div>
-        <div className="lab">
-          <textarea name="message" placeholder="Address"/>
+    <div className="contact-container">
+      <div className="image-section">
+        <img className="girl" src="girl.jpg" alt="Girl" />
+      </div>
+      <div className="form-section">
+        <form ref={form} onSubmit={sendEmail}>
+          <h1>Contact Me</h1>
           <div className="lab">
-            {isloading ? ( //ternary operator,adding conditional rendering
+            <input type="text" placeholder="Your Name" name="user_name" required />
+          </div>
+          <div className="lab">
+            <input type="email" placeholder="Your Email" name="user_email" required />
+          </div>
+          <div className="lab">
+            <textarea name="message" placeholder="Address" required />
+          </div>
+          <div className="lab">
+            {isloading ? ( // Conditional rendering using a ternary operator
               <Loader />
             ) : (
-              <button
-                type="submit"
-                className="btn"
-                value="Send"
-                onSubmit={() => Loader(false)}
-              >
-                submit
+              <button type="submit" className="btn" value="Send">
+                Submit
               </button>
             )}
           </div>
-        </div>
-      </form>
+        </form>
+      </div>
     </div>
-    
   );
 }
+
 export default Contact;

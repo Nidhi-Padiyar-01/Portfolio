@@ -5,11 +5,12 @@
     background-position: center;
 } */
 body{
-  height: 3000px;
+  font-family:'Times New Roman', Times, serif;
+
 }
 #main {
     margin-bottom: 80px;
-
+    
 }
 .div2 h1 {
   font-size: 50px;
@@ -47,6 +48,7 @@ body{
   color: black;
 }
 body {
+  height: 0px;
   background: rgb(2, 0, 36);
  background-color: rgba(32, 29, 29, 0.986); 
   /* background-repeat: no-repeat; */
@@ -96,10 +98,10 @@ blockquote {
     width: 150px;
     height: 50px;
   }
-  .div2 blockquote {
+  blockquote {
    
     transform: translate(-20%, -25%);
-    color: rgb(242, 230, 230);
+    color: rgb(176, 126, 126);
     left: 0;
     right: 0;
     margin: 0 auto;

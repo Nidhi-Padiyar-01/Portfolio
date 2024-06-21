@@ -20,35 +20,47 @@
 // }
 //import { Component } from "react";
 import Card from "./Cards";
-import '../csscomponent/Skills.css';
+import "../csscomponent/Skills.css";
 import Cards from "./Cards";
-export default function Skill(){//creating an array
-    const skills=[{
-        id:1,
-        head:'C++,Java,Python',
-        para:'For high-performance applications',
+export default function Skill() {
+  //creating an array
+  const skills = [
+    {
+      id: 1,
+      head: "C",
+      para: "For high-performance applications",
     },
     {
-        id:2,
-        head:'HTML,CSS,Javascript,ReactJS',
-        para:'To develop user-friendly websites',
+      id: 2,
+      head: "Python",
+      para: "To develop user-friendly websites",
     },
     {
-        id:3,
-        head:"SQL",
-        para:"For manipulating data",
-    }
-    ];
-    return(
-        <div classname="skill">
-            <h1><u>Skills</u></h1>
-        {
-            
-            skills.map((item)=>(
-                <Cards skills={item}/>//passing item to skill
-                )
-            )
-        }
-        </div>
-    );
+      id: 3,
+      head: "Web Development",
+      para: "For manipulating data",
+    },
+    {
+      id: 4,
+      head: "ReactJs",
+      para: "For manipulating data",
+    },
+    {
+      id: 5,
+      head: "SQL",
+      para: "For manipulating data",
+    },
+  ];
+  return (
+    <div className="skill">
+      <h1>
+        <u>Skills</u>
+      </h1>
+      <div className="grid-container">
+        {skills.map((item) => (
+          <Cards key={item.id} skills={item} /> //passing item to skill
+        ))}
+      </div>
+    </div>
+  );
 }

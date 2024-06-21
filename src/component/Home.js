@@ -1,7 +1,7 @@
 import "../csscomponent/Home.css";
 import React, { useRef } from "react";
 import Aboutme from "../component/Aboutme.js";
-import Skill from "../component/Skill.js";  
+import Skill from "../component/Skill.js";
 import Loader from "./Loader";
 import Footer from "./Footer";
 import Project from "../component/Project.js";
@@ -86,9 +86,9 @@ function Home() {
           <p>
             My name is Nidhi Padiyar. I'm currently pursuing my third year of
             B.E in Canara Engineering College. I live in Panemangalore with my
-            family. An Enthusiast person with a lot of dreams. I like to code, 
-            paint, travel.I believe art and travel gives you a new perspective to
-            everything.You will get to know a lot about the different
+            family. An Enthusiast person with a lot of dreams. I like to code,
+            paint, travel.I believe art and travel gives you a new perspective
+            to everything.You will get to know a lot about the different
             cultures,the cuisines,their history,the language and all the small
             unique things every place has to offer.
           </p>

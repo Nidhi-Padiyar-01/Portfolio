@@ -3,14 +3,14 @@
     height: 500px;
     margin-left: 20px;
     margin-right: 20px;
+
   }
-  p {
+   p {
     /* width: 500px; */
-    font-size: 30px;
-    font-family: n;
+    
     /*text-align: center;*/
-    color: #4a1a72;
-    font-size: 30px;
+    color: #b8a9c5;
+    font-size: 25px;
     margin-left: 20px;
     margin-right: 20px;
   }
