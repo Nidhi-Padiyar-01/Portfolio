@@ -8,17 +8,16 @@ export default function Aboutme() {
           <u>About Me</u>
         </h1>
         <p>
-          My name is Nidhi Padiyar. I'm currently pursuing my third year of B.E
-          in Canara Engineering College. I live in Panemangalore with my family.
-          An Enthusiast person with a lot of dreams. I like to code,paint,travel.I
-          believe art and travel gives you a new perspective to everything.You
-          will get to know a lot about the different cultures,the cuisines,their
-          history,the language and all the small unique things every place has
-          to offer.
+          I am a dedicated Web Developer with over 3 years of experience in
+          building dynamic websites and applications using HTML, CSS,
+          JavaScript, and React. Currently expanding my expertise in web design
+          to merge technical proficiency with creative design. Passionate about
+          crafting intuitive user experiences, I continuously seek to learn and
+          adopt the latest industry trends and technologies. My goal is to
+          deliver seamless, high-performance web solutions that exceed user
+          expectations and drive business success.
         </p>
-       
       </div>
-      
     </>
   );
 }
