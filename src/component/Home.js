@@ -23,8 +23,8 @@ function Home() {
             <h1>HELLO,</h1>
             <p className="p1">I'm Nidhi Padiyar</p>
             <blockquote>
-              As a web developer. I'm passionate about creating interfaces that
-              are fun,useful and user-centric.
+              As a web developer, I'm passionate about creating interfaces that
+              are fun,<br></br>useful and user-centric.
             </blockquote>
             <div>
               <Link to="/Project">
@@ -84,13 +84,17 @@ function Home() {
             <u>About Me</u>
           </h1>
           <p>
-            My name is Nidhi Padiyar. I'm currently pursuing my third year of
-            B.E in Canara Engineering College. I live in Panemangalore with my
-            family. An Enthusiast person with a lot of dreams. I like to code,
-            paint, travel.I believe art and travel gives you a new perspective
-            to everything.You will get to know a lot about the different
-            cultures,the cuisines,their history,the language and all the small
-            unique things every place has to offer.
+            I am a dedicated Web Developer interested in
+            building dynamic and responsive websites and applications using
+            HTML, CSS, JavaScript, and React. Currently, I am expanding my
+            expertise in web design to blend my technical proficiency with
+            creative design skills. Passionate about crafting intuitive and
+            engaging user experiences, I continuously seek to learn and
+            incorporate the latest industry trends and technologies. My goal is
+            to deliver seamless, high-performance web solutions that exceed user
+            expectations and contribute to business success. I thrive on solving
+            complex problems and collaborating with teams to bring innovative
+            ideas to life.
           </p>
         </div>
 

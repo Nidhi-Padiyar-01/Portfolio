@@ -38,12 +38,12 @@ export default function Skill() {
     {
       id: 3,
       head: "Web Development",
-      para: "For manipulating data",
+      para: "To create websites and web applications",
     },
     {
       id: 4,
       head: "ReactJs",
-      para: "For manipulating data",
+      para: "A javascript library for building user interfaces",
     },
     {
       id: 5,

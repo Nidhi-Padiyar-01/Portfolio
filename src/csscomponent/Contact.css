@@ -1,5 +1,8 @@
 .contact-container {
-    width: 900px;
+  background-color: black;
+  margin:120px;
+    height: 600px;
+    width: 80%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -14,6 +17,7 @@
   }
   
   .form-section {
+   
     width: 100px;
     flex: 1;
     padding: 20px;
