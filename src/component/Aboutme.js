@@ -4,7 +4,8 @@ export default function Aboutme() {
   return (
     <>
       <div className="par">
-        <h1>
+        <div className="sec2">
+      <h1>
           <u>About Me</u>
         </h1>
         <p>
@@ -17,6 +18,11 @@ export default function Aboutme() {
           deliver seamless, high-performance web solutions that exceed user
           expectations and drive business success.
         </p>
+        </div>
+      <div className="image-sec">
+        <img className="girl2" src="girl2.jpg" alt="Girl" />
+      </div>
+        
       </div>
     </>
   );

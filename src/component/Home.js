@@ -80,72 +80,30 @@ function Home() {
         </div>
 
         <div className="par">
+          
+          <div className="sec2">
           <h1>
             <u>About Me</u>
           </h1>
-          <p>
-            I am a dedicated Web Developer interested in
-            building dynamic and responsive websites and applications using
-            HTML, CSS, JavaScript, and React. Currently, I am expanding my
-            expertise in web design to blend my technical proficiency with
-            creative design skills. Passionate about crafting intuitive and
-            engaging user experiences, I continuously seek to learn and
-            incorporate the latest industry trends and technologies. My goal is
-            to deliver seamless, high-performance web solutions that exceed user
-            expectations and contribute to business success. I thrive on solving
-            complex problems and collaborating with teams to bring innovative
-            ideas to life.
-          </p>
+            <p>
+              I am a dedicated Web Developer interested in building dynamic and
+              responsive websites and applications using HTML, CSS, JavaScript,
+              and React. Currently, I am expanding my expertise in web design to
+              blend my technical proficiency with creative design skills.
+              Passionate about crafting intuitive and engaging user experiences,
+              I continuously seek to learn and incorporate the latest industry
+              trends and technologies. My goal is to deliver seamless,
+              high-performance web solutions that exceed user expectations and
+              contribute to business success. I thrive on solving complex
+              problems and collaborating with teams to bring innovative ideas to
+              life.
+            </p>
+          </div>
+          <div className="image-sec">
+            <img className="girl2" src="girl2.jpg" alt="Girl" />
+          </div>
         </div>
 
-        {/* <h1>Skills</h1>
-        <div id="box1">
-          <h2>UI/UX Design</h2>
-          <p>I have done many projects on ui and ux designs</p>
-        </div>
-        <div id="box1">
-          <h2>UI/UX Design</h2>
-          <p>I have done many projects on ui and ux designs</p>
-        </div>
-        <div id="box1">
-          <h2>UI/UX Design</h2>
-          <p>I have done many projects on ui and ux designs</p>
-        </div> */}
-
-        {/* <div id="container">
-          <div className="box">
-            <img className="b1" src="b1.jpg" />
-            <p>Hotstar Clone</p>
-          </div>
-          <div className="box">
-            <img className="b1" src="b2.jpg" />
-            <p>Food ordering Website</p>
-          </div>
-          <div className="box">
-            <img className="b1" src="b3.jpg" />
-            <p>College Website</p>
-          </div>
-        </div> */}
-
-        {/* <div className="Contact">
-          <form ref={form} onSubmit={sendEmail}>
-            <div className="lab">
-              <label>Name:</label>
-              <input type="text" name="user_name" />
-            </div>
-            <div className="lab">
-              <label>Email:</label>
-              <input type="email" name="user_email" />
-            </div>
-            <div className="lab">
-              <label>Message:</label>
-              <textarea name="message" />
-              <div className="lab">
-                <input type="submit" className="btn" value="Send" />
-              </div>
-            </div>
-          </form>
-        </div> */}
         <div>
           {" "}
           <Skill />

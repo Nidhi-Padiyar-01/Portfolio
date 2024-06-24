@@ -67,3 +67,18 @@
   grid-template-columns: auto auto auto;
   grid-row-gap: 50px;
 }
+@media (max-width: 600px){
+  #box1{
+    width: 100px;
+    
+  }
+  .grid-container{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+  }
+  #box1::before{
+    width: 140px;
+    height:180px;
+  }
+}

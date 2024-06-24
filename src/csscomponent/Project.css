@@ -1,5 +1,4 @@
 #container {
-  /* margin: auto; */
   justify-content: center;
   font-family: sans-serif;
   display: flex;
@@ -34,11 +33,12 @@
   border-radius: 0.7rem;
   transition: all ease 0.3s;
   justify-content: space-between;
+  
 }
 
 .b1 {
   width: 250px;
-  height: 50%;
+  height: 50%;  
 }
 /* .box img{
     object-fit: cover;
@@ -53,19 +53,17 @@
   border-radius: 0.5rem;
   transition: 2s;
   cursor: pointer;
-  transition: transform 0.5s;
+  
+  
 }
-/* .box p{
-    color: aliceblue;
-    font-size: 30px;
-    width: 20%;
-} */
 .box:hover {
   transform: scale(0.95);
+  transition: transform 0.5s;
 }
 .container .box:hover {
-  box-shadow: 0px 0px 20px 1px #ffbb763f;
-  border: 1px solid rgba(255, 255, 255, 0.454);
+  box-shadow: 0px 0px 20px 1px #0f0a04da;
+  /* border: 1px solid rgba(255, 255, 255, 0.454); */
+
 }
 @media (max-width: 768px) {
   #container {

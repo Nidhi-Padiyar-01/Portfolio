@@ -6,6 +6,7 @@
 } */
 body{
   font-family:'Times New Roman', Times, serif;
+  border: 10px;
 
 }
 #main {
@@ -76,7 +77,9 @@ blockquote {
   color: aliceblue;
 }
 @media(max-width: 736px) {
- 
+ body{
+  width: auto;
+ }
   .profile {
     margin-right: 20px;
     width: 100%;

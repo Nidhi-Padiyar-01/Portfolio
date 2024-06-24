@@ -33,7 +33,12 @@ export default function Skill() {
     {
       id: 2,
       head: "Python",
-      para: "To develop user-friendly websites",
+      para: "High-level language for various applications",
+    },
+    {
+      id: 6,
+      head: "Java",
+      para: "Powerful language for various applications",
     },
     {
       id: 3,
@@ -50,6 +55,7 @@ export default function Skill() {
       head: "SQL",
       para: "For manipulating data",
     },
+    
   ];
   return (
     <div className="skill">

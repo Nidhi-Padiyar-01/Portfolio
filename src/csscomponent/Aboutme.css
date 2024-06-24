@@ -1,38 +1,61 @@
-
-  .par {
-    height: 500px;
-    margin-left: 20px;
-    margin-right: 20px;
-
-  }
-   p {
-    /* width: 500px; */
-    
-    /*text-align: center;*/
-    color: #b8a9c5;
-    font-size: 25px;
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-  h1 {
-    padding-top: 50px;
-    color: aliceblue;
-  }
+.par {
+  width: 100%;
+  height: 500px;
+  display: flex;
+}
+.sec2 {
+  width: 70%;
+}
+p {
+  color: #b8a9c5;
+  font-size: 25px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+h1 {
+  padding-top: 50px;
+  color: aliceblue;
+}
+.image-sec {
+  width: 40%;
+  justify-content: right;
+}
+.girl2 {
+  width: 500px;
+  justify-content: right;
+}
 
 @media (max-width: 600px) {
   body {
     height: 200px;
-    /* padding: 20px;
-    text-align: justify; */
   }
   h1 {
+    text-align: center;
     padding-top: 50px;
   }
 
-  par p{
-    font-size: 30px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    color: rgb(246, 237, 237);
-    padding: 200px;
+  .par {
+    width: 50%;
+    height: 500px;
+    display: flex;
+    
+  }
+  .par p{
+    margin: 10px;
+    width: 300px;
+
+  }
+  .sec2 {
+    width: 100%;
+    align-items: center;
+    
+  }
+  .image-sec {
+    width: 50%;
+    justify-content:flex-end;
+    padding-top: 1000px;
+  }
+  .girl2 {
+    width: 250px;
   }
 }
