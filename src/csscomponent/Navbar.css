@@ -57,10 +57,15 @@ nav {
   
   /* Media query for mobile responsiveness */
   
-    @media screen and (max-width: 768px) {
+  @media (max-width: 600px) { 
+    nav{
+      width: 370px;
+    }
      
       .nav{
         display:none;
+        width: 370px;
+
       }
    
       

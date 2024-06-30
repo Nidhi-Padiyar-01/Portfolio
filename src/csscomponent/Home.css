@@ -116,5 +116,24 @@ blockquote {
   .div2 button {
     margin-right: 80px;
   }
+ img.profile{
+  width: 150px;
+  padding-left: 98px;
+  p.p1{
+    height: 80px;
+    padding-bottom: 0px;
  
+
+  }
+  div.div1{
+    height: 0px;
+    width: 0px;
+  }
+  div.div2{
+    margin: 20px;
+    width: 250px;
+    height: 600px;
+
+  }
+ }
 }

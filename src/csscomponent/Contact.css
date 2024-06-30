@@ -57,4 +57,11 @@
 
   }
   
-  
+  @media (max-width: 600px) {
+    div.contact-container{
+      height: 400px;
+    width: 320px;
+    margin: 20px;
+
+    }
+  }
