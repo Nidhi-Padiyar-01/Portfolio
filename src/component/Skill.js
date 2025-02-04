@@ -1,24 +1,4 @@
-// import '../csscomponent/Skills.css';
-// export default function Skills(){
-//     return(
-//         <>
-//         <h1>Skills</h1>
-//         <div id='box1'>
-//             <h2>UI/UX Design</h2>
-//             <p>I have done many projects on ui and ux designs</p>
-//         </div>
-//         <div id='box1'>
-//             <h2>UI/UX Design</h2>
-//             <p>I have done many projects on ui and ux designs</p>
-//         </div>
-//         <div id='box1'>
-//             <h2>UI/UX Design</h2>
-//             <p>I have done many projects on ui and ux designs</p>
-//         </div>
-//         </>
-//     );
-// }
-//import { Component } from "react";
+
 import Card from "./Cards";
 import "../csscomponent/Skills.css";
 import Cards from "./Cards";
@@ -59,7 +39,7 @@ export default function Skill() {
   ];
   return (
     <div className="skill">
-      <h1>
+      <h1 className="skills-heading">
         <u>Skills</u>
       </h1>
       <div className="grid-container">

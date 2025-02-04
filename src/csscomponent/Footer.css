@@ -1,21 +1,32 @@
-.footer{
+.footer {
   width: 100%;
   height: 10vh;
   margin-top: 70px;
   background: rgb(0, 0, 0);
-  bottom: 0;
   position: relative;
- }
-.footer p{
-  color: aliceblue;
-  margin: auto;
-  text-align: center;
-padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-/* @media(max-width:768px){
-  .footer{
-    width: 70px;
-    height: 2rem;
-    object-fit: cover;
+
+.footer p {
+  color: aliceblue;
+  text-align: center;
+  font-size: 16px;
+  padding: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .footer {
+    /* height: 8vh;   */
+    margin-top: 50px; 
+    height: 50px;
+    width: 460px;
   }
-} */
+
+  .footer p {
+    font-size: 14px;
+    padding: 10px;
+  }
+}
