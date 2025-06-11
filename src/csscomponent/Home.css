@@ -1,144 +1,157 @@
-/* Base Styles */
+/* Base styling */
 body {
-  font-family: 'Times New Roman', Times, serif;
-  background: rgb(2, 0, 36);
-  background-color: rgba(32, 29, 29, 0.986);
   margin: 0;
-  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background: radial-gradient(circle at top left, #191919, #000000);
+  color: white;
 }
 
-/* Main Container */
-#main {
-  display: grid;
-  grid-template-columns: 30% 70%;
-  gap: 20px;
-  padding: 20px;
+/* Hero section */
+.hero {
+  min-height: 100vh;
+  padding: 20px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.hero-content img {
+  width: 450px;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
   align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: relative;
+  padding-bottom: 20px;
 }
 
-/* Headings */
-.div2 h1 {
-  font-size: 50px;
-  color: rgb(241, 227, 223);
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  padding: 0;
+  margin: 0;
 }
 
-/* Profile Image */
-.profile {
-  border-radius: 50%;
-  width: 200px;
-  height: 200px;
-  object-fit: cover;
-  display: block;
-  margin: 0 auto;
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
 }
 
-/* Button */
-.button {
-  background-color: black;
-  color: rgb(241, 231, 231);
-  font-size: 16px;
-  text-align: center;
-  display: inline-block;
-  cursor: pointer;
-  border-radius: 1rem;
-  padding: 15px 25px;
-  border: none;
+.nav-links a:hover {
+  color: #ffc107;
 }
 
-.button:hover {
-  background-color: rgb(232, 99, 27);
-  color: black;
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 60px;
+  gap: 30px;
 }
 
-/* Paragraph Styling */
-.p1 {
-  color: orangered;
+.avatar {
+  width: 400px;
+  height: 350px;
+  border-radius: 10px;
+}
+
+.text-section {
+  max-width: 600px;
+}
+
+.intro {
+  font-size: 30px;
+  color: gray;
+  margin-bottom: 0px;
+}
+
+.main-heading {
+  font-size: 48px;
+  color: #ffc107;
+  margin: 0;
+  font-weight: 800;
+}
+
+/* .subtext {
   font-size: 20px;
+  color: #ccc;
+  margin-top: 10px;
+} */
+
+.tagline {
+  margin-top: 30px;
+  font-size: 16px;
+  color: #aaa;
+  max-width: 400px;
+  line-height: 1.5;
 }
 
-.p2 {
-  color: aliceblue;
-  font-size: 35px;
+.resume-button {
+  margin-top: 20px;
+  display: inline-block;
+  padding: 12px 28px;
+  background-color: #000000;
+  color: #ffc107;
+  font-weight: 600;
+  font-size: 16px;
+  border-radius: 10px;
+  text-decoration: none;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
 }
 
-/* Quote Styling */
-blockquote {
-  margin-top: 2rem;
-  opacity: 0.75;
-  font-size: 25px;
-  color: aliceblue;
+.resume-button:hover {
+  background-color: #ffc107;
+  color: rgb(0, 0, 0);
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
 }
 
-/* Icons */
-.icons {
-  padding: 20px;
-}
-
-.icons:hover {
-  color: black;
-  background-color: orangered;
-}
-
-/* Responsive Design */
-@media (max-width: 900px) {
-  #main {
-    grid-template-columns: 1fr;
-    text-align: center;
-    padding: 30px;
+/* Responsive styling */
+@media screen and (max-width: 768px) {
+  .hero {
+    padding: 20px;
   }
 
-  .profile {
-    width: 150px;
-    height: 150px;
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
   }
 
-  .p2 {
-    font-size: 25px;
-  }
-
-  .div2 h1 {
-    font-size: 35px;
-    margin-top: 20px;
-  }
-
-  .p1 {
-    font-size: 18px;
-  }
-
-  blockquote {
-    font-size: 20px;
-    width: 80%;
-    margin: 0 auto;
-  }
-}
-
-@media (max-width: 600px) {
-  .profile {
-    width: 120px;
-    height: 120px;
-  }
-
-  .p2 {
-    font-size: 20px;
-  }
-
-  .div2 h1 {
-    font-size: 28px;
+  .nav-links {
+    flex-direction: column;
+    gap: 15px;
     margin-top: 10px;
   }
 
-  .p1 {
-    font-size: 16px;
+  .click-me {
+    position: static;
+    margin-top: 10px;
+    align-self: flex-end;
   }
 
-  blockquote {
+  .hero-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .text-section {
+    max-width: 100%;
+  }
+
+  .main-heading {
+    font-size: 36px;
+  }
+
+  .subtext {
     font-size: 18px;
-    padding: 10px;
-  }
-
-  .button {
-    padding: 12px 20px;
-    font-size: 14px;
-    width: 100%;
   }
 }

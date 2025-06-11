@@ -1,101 +1,94 @@
-/* Base Styles */
 .par {
   font-family: 'Poppins', sans-serif;
   width: 100%;
-  height: auto;
+  height: 100%;
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  padding: 20px;
 }
-
 .sec2 {
-  width: 60%;
-  min-width: 300px;
-}
+  height: 500px;
+  margin-left: 50px;
+    background-color: rgb(0, 0, 0);
 
+}
 p {
-  color: #b8a9c5;
-  font-size: 22px;
-  margin: 10px;
-  line-height: 1.5;
+  color: gray;
+  font-size: 25px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
-
 h1 {
-  padding-top: 20px;
-  color: aliceblue;
-  font-size: 2rem;
-  text-align: center;
+  padding-top: 50px;
+  color: #e0a800;
 }
-
 .image-sec {
-  width: 35%;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
+  
+  width: 500px;
+}
+.girl2{
+  margin-top: 0px;
+  padding-bottom: 100px;
 }
 
-.girl2 {
-  width: 100%;
-  max-width: 400px;
-  height: auto;
+.icons {
+  margin: 20px;
+  padding: 20px;
+  background-color: black;
+  color: #e0a800;
+  border: 1px solid white;
 }
 
-/* Responsive Design */
-@media (max-width: 900px) {
-  .par {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-
-  .sec2 {
-    width: 90%;
-  }
-
-  p {
-    font-size: 20px;
-    margin: 15px;
-  }
-
-  .image-sec {
-    width: 80%;
-    justify-content: center;
-  }
-
-  .girl2 {
-    max-width: 300px;
-  }
+.icons:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
 }
 
 @media (max-width: 600px) {
-  .par {
-    height: auto;
-    padding: 10px;
+  body {
+    height: 200px;
   }
-
   h1 {
-    font-size: 1.8rem;
-    padding-top: 30px;
+    text-align: center;
+    padding-top: 50px;
   }
 
+  .par {
+    width: 50%;
+    /* height: 500px; */
+    display: flex;
+    height: 900px;
+
+    
+  }
+  .par p{
+    margin: 20px;
+    height: 800px;
+    width: 350px;
+    margin-top: 100px;
+
+
+  }
   .sec2 {
-    width: 100%;
+    align-items: center;
+    height: 100px;
+    width: 200px;
   }
+  /* .image-section{
 
-  p {
-    font-size: 18px;
-    margin: 10px 20px;
-  }
-
+  } */
   .image-sec {
-    width: 100%;
-    justify-content: center;
+    width: 50%;
+    justify-content:flex-end;
+    padding-top: 0px;
+    width: 150px;
+    height: 200px;
   }
-
   .girl2 {
-    max-width: 250px;
-    height: auto;
+    height: 200px;
+    width: 200px;
+
+  }
+  p.p1{
+    height: 80px;
+
   }
 }

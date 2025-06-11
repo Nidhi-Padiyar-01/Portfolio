@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-
-=======
-// Skill.js
->>>>>>> ad36a1f (updates)
 import Card from "./Cards";
 import "../csscomponent/Skills.css";
 
@@ -16,20 +11,18 @@ export default function Skill() {
   ];
 
   return (
-<<<<<<< HEAD
     <div className="skill">
       <h1 className="skills-heading">
         <u>Skills</u>
       </h1>
       <div className="grid-container">
-=======
-    <div className="skills-section">
-      <h1>Skills</h1>
-      <div className="skills-container">
->>>>>>> ad36a1f (updates)
-        {skills.map((item) => (
-          <Card key={item.id} skills={item} />
-        ))}
+        <div className="skills-section">
+          <div className="skills-container">
+            {skills.map((item) => (
+              <Card key={item.id} skills={item} />
+            ))}
+          </div>
+        </div>
       </div>
     </div>
   );
