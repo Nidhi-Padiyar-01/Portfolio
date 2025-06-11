@@ -65,7 +65,6 @@ function Home() {
         </div>
       </div>
 
-<<<<<<< HEAD
         <div className="par">
           
           <div className="sec2">
@@ -87,11 +86,6 @@ function Home() {
             <img className="girl2" src="girl2.jpg" alt="Girl" />
           </div>
         </div>
-=======
-      <div id="about">
-        <Aboutme />
-      </div>
->>>>>>> ad36a1f (updates)
 
       <div id="skills">
         <Skill />
