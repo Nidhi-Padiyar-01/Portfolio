@@ -1,80 +1,9 @@
-<<<<<<< HEAD
-/* General Styles */
-h3 {
+.h3 {
   color: #fff;
   padding-left: 20px;
 }
-=======
-h3{
-    color: #ebd61b;
-    padding-left: 20px;
-}
-nav {
-   
-    height:4rem;
-    padding: 15px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: sticky;
-    /* top:0; */
-    z-index: 3;
-    background-color: #050505;
-  }
-  
-  .hamburger-btn {
-    display: none; /* Initially hide the hamburger icon on larger screens */
-    font-size: 24px;
-    color: #f6f6f6;
-    cursor: pointer;
-  }
-  
-  .logo {
-    
-    overflow: hidden;
-    width: 60px; /* Set the width and height for the round shape */
-    height: 60px;
-  }
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-  }
-  
-  ul li {
-    margin-right: 20px;
-  }
-  .desktop :hover{
-    
-    color:rgb(255, 213, 0);
-  
-  
-  }
-  
-  a {
-    text-decoration: none;
-    color:#f6f6f6;
-    font-size: 18px;
-  }
-  
-  a.active {
-    font-weight: bold;
-  }
-  
-  /* Media query for mobile responsiveness */
-  
-  @media (max-width: 600px) { 
-    nav{
-      width: 370px;
-    }
-     
-      .nav{
-        display:none;
-        width: 370px;
->>>>>>> ad36a1f (updates)
 
-nav {
+.nav {
   height: 4rem;
   padding: 15px 20px;
   display: flex;
