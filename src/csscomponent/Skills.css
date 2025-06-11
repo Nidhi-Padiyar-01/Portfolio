@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #box1 {
   position: relative;
   width: 200px;
@@ -46,8 +47,61 @@
 }
 
 #box1 p {
-  font-size: 14px;
+=======
+.skills-section {
+  padding: 40px;
+  text-align: center;
 }
+
+.skills-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.skill-box {
+  background-color: #f6f6f6;
+  border-radius: 20px;
+  padding: 30px 20px;
+  text-align: center;
+  width: 260px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease;
+}
+
+.skill-box:hover {
+  transform: translateY(-10px);
+}
+
+.icon-placeholder {
+  background-color: #ffd740;
+  border-radius: 50%;
+  padding: 16px;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+  font-size: 24px;
+}
+
+.skill-box h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 12px;
+}
+
+.skill-box p {
+>>>>>>> ad36a1f (updates)
+  font-size: 14px;
+  color: #666;
+  line-height: 1.6;
+}
+<<<<<<< HEAD
 
 #box1 p:last-child {
   color: #e81cff;
@@ -117,3 +171,5 @@
 }
 
 
+=======
+>>>>>>> ad36a1f (updates)

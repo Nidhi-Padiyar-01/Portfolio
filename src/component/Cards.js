@@ -1,12 +1,14 @@
-import Footer from "./Footer";
+// Cards.js (for skills)
+import "../csscomponent/Skills.css";
 
-// import Skill from "./Skill";
 export default function Cards({ skills }) {
-  console.log(skills);
-
   return (
-    <div id="box1">
-      <h1>{skills.head}</h1>
+    <div className="skill-box">
+      <div className="icon-placeholder">
+        {/* Replace this with an <img /> if you have icons */}
+        <span role="img" aria-label="icon">🛠️</span>
+      </div>
+      <h3>{skills.head}</h3>
       <p>{skills.para}</p>
     </div>
   );
