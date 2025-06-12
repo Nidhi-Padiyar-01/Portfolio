@@ -29,16 +29,21 @@ export default function Project() {
 >
 
         <SwiperSlide className="swiper-slide">
-          <img src="b1.jpg" alt="Hotstar Clone" />
-          <p>Hotstar Clone</p>
+          <img src="p1.png" alt="Employee Management System" />
+          <p>Employee Management System</p>
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
-          <img src="b2.jpg" alt="Food ordering Website" />
-          <p>Food Ordering Website</p>
+          <img src="p2.png" alt="Emergency App" />
+          <p>Emergency App
+            <a href='https://github.com/Nidhi-Padiyar-01/EmergencyApp.git'>🔗</a>
+          </p>
+          
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
-          <img src="b3.jpg" alt="College Website" />
-          <p>College Website</p>
+          <img src="p3.png" alt="Parking Space Counter" />
+          <p>Park Vision
+            <a href='https://github.com/Nidhi-Padiyar-01/ParkingSpaceCounter.git'>🔗</a>
+          </p>
         </SwiperSlide>
       </Swiper>
     </div>
