@@ -5,11 +5,19 @@ export default function Cards({ skills }) {
   return (
     <div className="skill-box">
       <div className="icon-placeholder">
-        {/* Replace this with an <img /> if you have icons */}
-        <span role="img" aria-label="icon">🛠️</span>
-      </div>
-      <h3>{skills.head}</h3>
+        <div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+        
       <p>{skills.para}</p>
+      <span role="img" aria-label="icon">👩‍💻</span>
+      </div>
+      <div class="flip-box-back">
+        <h3>{skills.head}</h3>
+      </div>
+      </div>
+    </div>
+    </div>
     </div>
   );
 }
