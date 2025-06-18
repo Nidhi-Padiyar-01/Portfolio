@@ -35,7 +35,7 @@ export default function Project() {
         <SwiperSlide className="swiper-slide">
           <img src="p2.png" alt="Emergency App" />
           <p>Emergency App
-            <a href='https://github.com/Nidhi-Padiyar-01/EmergencyApp.git'>🔗</a>
+            <a href='https://github.com/Nidhi-Padiyar-01/Safe_Tap.git'>🔗</a>
           </p>
           
         </SwiperSlide>
